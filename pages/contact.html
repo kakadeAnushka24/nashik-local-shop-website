@@ -9,19 +9,32 @@
 
   <body>
     <!-- Navbar -->
-  <header class="navbar-custom">
-    <div class="logo">Nashik<span>Local</span></div>
+    <header class="navbar-custom">
+      <div class="logo">Nashik<span>Local</span></div>
 
-    <nav class="nav-links">
-      <a href="index.html" class="active">Home</a>
-      <a href="./pages/shops.html">Shops</a>
-      <a href="./pages/about.html">About</a>
-      <a href="./pages/contact.html">Contact</a>
-      <a href="#" class="btn-business">List Business</a>
-    </nav>
-  </header>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="./pages/shops.html">Shops</a>
+        <a href="./pages/about.html">About</a>
+        <a href="./pages/contact.html">Contact</a>
+        <a href="#" class="btn-business">List Business</a>
+      </nav>
+    </header>
 
     <!-- Main List your business Section -->
+
+    <div class="add-shop-container">
+      <h1 class="main-heading">Add Your Shop to NashikLocal</h1>
+
+      <!-- <div class="line-shadow">
+
+      </div> -->
+      <p class="sub-text">
+        Want to list your business on our platform? Fill out the form below and
+        we’ll get your shop featured on NashikLocal. It’s free and easy!
+      </p>
+    </div>
+
     <section class="main">
       <div class="form-container">
         <div>
@@ -38,22 +51,22 @@
         </div>
         <h2>List Your Business</h2>
         <p class="subtitle">
-          Want to list your business on our platform? Fill out the form below
-          and get discovered by customers searching for services near them.
+          Join hundreds of local businesses already on NashikLocal. Get discovered by thousands of customers in Nashik.
         </p>
 
         <form action="#" method="post" class="list-business-form">
-          <div class="form-grid">
+          <div class="form-grid"class="form-input">
             <div class="form-group">
               <label>Shop/Business Name</label>
               <input
                 type="text"
-                placeholder="e.g. SmartTech Electronics" maxlength="30"
-                required 
+                placeholder="e.g. SmartTech Electronics"
+                maxlength="30"
+                required
               />
             </div>
 
-            <div class="form-group">
+            <div class="form-group"class="form-input">
               <label>Category </label>
               <select>
                 <option>Select Category</option>
@@ -65,17 +78,27 @@
 
             <div class="form-group">
               <label>Owner/Manager Name</label>
-              <input type="text" placeholder="Your full name" maxlength="20" required />
+              <input
+                type="text"
+                placeholder="Your full name"
+                maxlength="20"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label>Phone Number</label>
-              <input type="tel" placeholder="+91 XXXXX XXXXX"  required />
+              <input type="tel" placeholder="+91 XXXXX XXXXX" required />
             </div>
 
             <div class="form-group">
               <label>Email Address</label>
-              <input type="email" placeholder="your@email.com" max="40" required />
+              <input
+                type="email"
+                placeholder="your@email.com"
+                max="40"
+                required
+              />
             </div>
 
             <div class="form-group">
@@ -110,7 +133,11 @@
 
             <div class="form-group">
               <label>Website / Social Media (Optional)</label>
-              <input type="text" placeholder="https://yourwebsite.com" maxlength="100" />
+              <input
+                type="text"
+                placeholder="https://yourwebsite.com"
+                maxlength="100"
+              />
             </div>
 
             <div class="form-group full-width">
@@ -228,35 +255,32 @@
 
         <div class="contact-item">
           <h4><img src="/css/phone-call.png" class="icons" />&nbsp;Phone</h4>
-          <p>+91 98765 43210</p><br>
+          <p>+91 98765 43210</p>
+          <br />
           <p>+91 91234 56789</p>
         </div>
 
         <div class="contact-item">
           <h4><img src="/css/email.png" class="icons" /> &nbsp;Email</h4>
-          <a href="mailto:support@nashiklocal.com">support@nashiklocal.com</a><br>&nbsp;<br>
+          <a href="mailto:support@nashiklocal.com">support@nashiklocal.com</a
+          ><br />&nbsp;<br />
           <a href="mailto:info@nashiklocal.com">info@nashiklocal.com</a>
         </div>
 
         <br />
-        <!-- <div class="contact-item"> -->
+      
         <h4>&nbsp;FOLLOW OUR COMMUNITY</h4>
         <br />
         <div class="media-icons">
-          <a href="#" target="_blank"
-            ><img src="/css/facebook (2).png" alt="facebook" height="25px" style=" background-color:#dfd9e5; border-radius:4px; padding:5px;"
-          /></a>  &nbsp;&nbsp;
-          <a href="#" target="_blank"
-            ><img src="/css/instagram.png" alt="instagram" height="25px" style=" background-color:#dfd9e5; border-radius:4px; padding:5px;"
-          /></a>  &nbsp;&nbsp;
-          <a href="#" target="_blank"
-            ><img src="/css/twitter.png" alt="twitter" height="25px"  style=" background-color:#dfd9e5; border-radius:4px; padding:5px;"
-          /></a> &nbsp;&nbsp;
-          <a href="#" target="_blank"
-            ><img src="/css/linkedin.png" alt="linkdin" height="25px" style=" background-color:#dfd9e5; border-radius:4px; padding:5px;"
-          /></a>
+          <div class="media-img"><a href="#" target="_blank"><img src="/css/facebook (2).png" alt="facebook" height="25px"/></a></div>
+          &nbsp;&nbsp;
+          <div class="media-img"><a href="#" target="_blank"><img src="/css/instagram.png" alt="instagram" height="25px" /></a></div>
+          &nbsp;&nbsp;
+         <div class="media-img"> <a href="#" target="_blank"><img src="/css/twitter.png" alt="twitter" height="25px"/></a></div>
+          &nbsp;&nbsp;
+         <div class="media-img"> <a href="#" target="_blank"><img src="/css/linkedin.png" alt="linkdin"  height="25px" /></a></div>
         </div>
-        <!-- </div> -->
+       
       </section>
     </section>
 
