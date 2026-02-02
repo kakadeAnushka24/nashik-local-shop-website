@@ -121,11 +121,11 @@
 
         .main-heading:hover{
            
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
 
         /* Small shadow line below heading */
-        /* .main-heading::after {
+        .main-heading::after {
             content: "";
             position: absolute;
             left: 50%;
@@ -133,9 +133,10 @@
             bottom: -13px;
             width: 50px;
             height: 4px;
-            background: rgba(47, 79, 216, 0.25);
+            background:linear-gradient(90deg,transparent,#6c63ff,transparent);
             border-radius: 10px;
-        } */
+            animation: underlineMove 1.6s ease-in-out infinite;
+        }
 
         .sub-text {
             font-size: 16px;
