@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+
+     <!-- Font Awesome Icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar-custom">
+      <div class="logo">
+        <i class="fa-solid fa-location-dot"></i>
+        <!-- <img src="./images/location.png" > -->
+        Nashik<span>Local</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="../index.html">
+          <i class="fa-solid fa-house"></i> Home
+        </a>
+        <a href="/pages/shops.html">
+          <i class="fa-solid fa-shop"></i> Shops
+        </a>
+        <a href="./pages/about.html">
+          <i class="fa-solid fa-circle-info"></i> About
+        </a>
+        <a href="/pages/contact.html">
+          <i class="fa-solid fa-envelope"></i> Contact
+        </a>
+      </nav>
+    </header>
+
+    <!-- Main List your business Section -->
+
+    <div class="add-shop-container">
+      <h1 class="main-heading">Add Your Shop to NashikLocal</h1>
+
+      <!-- <div class="line-shadow">
+
+      </div> -->
+      <p class="sub-text">
+        Want to list your business on our platform? Fill out the form below and
+        we’ll get your shop featured on NashikLocal. It’s free and easy!
+      </p>
+    </div>
+
+    <section class="main">
+      <div class="form-container">
+        <div>
+          <img
+            src="/css/storefront.png"
+            style="
+              background-color: #e8ecf1;
+              border-radius: 50%;
+              height: 60px;
+              margin: 8px;
+              padding: 10px;
+            "
+          />
+        </div>
+        <h2>List Your Business</h2>
+        <p class="subtitle">
+          Join hundreds of local businesses already on NashikLocal. Get
+          discovered by thousands of customers in Nashik.
+        </p>
+
+        <form action="#" method="post" class="list-business-form">
+          <div class="form-grid" class="form-input">
+            <div class="form-group">
+              <label>Shop/Business Name</label>
+              <input
+                type="text"
+                placeholder="&nbsp; e.g. SmartTech Electronics"
+                maxlength="30"
+                required
+              />
+            </div>
+
+            <div class="form-group" class="form-input">
+              <label>Category </label>
+              <select>
+                <option>Select Category</option>
+                <option>Electronics</option>
+                <option>Restaurant</option>
+                <option>Medical</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Owner/Manager Name</label>
+              <input
+                type="text"
+                placeholder="&nbsp; Your full name"
+                maxlength="20"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="&nbsp; +91 XXXXX XXXXX" required />
+            </div>
+
+            <div class="form-group">
+              <label>Email Address</label>
+              <input
+                type="email"
+                placeholder="&nbsp; your@email.com"
+                max="40"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Area / Locality</label>
+              <input type="text" placeholder="&nbsp; e.g. College Road" required />
+            </div>
+
+            <div class="form-group full-width">
+              <label>Shop Address</label>
+              <input
+                type="text"
+                placeholder="&nbsp; Shop No, Building Name"
+                required
+              /><br />
+
+              <div class="two-block-row">
+                <input
+                  type="text"
+                  placeholder="&nbsp; Area/Locality (e.g. College Road)"
+                />
+                <input type="text" value="&nbsp; Nashik" readonly />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Business Hours</label>
+              <input
+                type="text"
+                placeholder="&nbsp; e.g. 10:00 AM - 9:00 PM (Mon-Sun)"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Website / Social Media (Optional)</label>
+              <input
+                type="text"
+                placeholder="&nbsp; https://yourwebsite.com"
+                maxlength="100"
+              />
+            </div>
+
+            <div class="form-group full-width">
+              <label>Shop Description</label>
+              <textarea
+                rows="4"
+                placeholder="&nbsp; Describe your business, products, services, and why customers should choose you"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <h3>
+              <span><img src="/css/i (1).png" height="21px" /></span> What
+              Happens Next?
+            </h3>
+            <p>
+              Your business details have been successfully submitted, Our team
+              will review and verify the information provided, You may be
+              contacted if additional details are required, Once approved, your
+              business will be published on our platform.
+            </p>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <span
+              ><img
+                src="/css/paper-plane.png"
+                height="21px"
+                style="padding-top: 6px"
+            /></span>
+            &nbsp;Submit Shop Listing Request
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Why? section -->
+    <section class="why">
+      <h2>Why List Your Shop on NashikLocal?</h2>
+
+      <div class="why-box">
+        <div class="box">
+          <span
+            ><img src="/css/multiple-users-silhouette (1).png" height="50px"
+          /></span>
+          <h4>Reach More Customers</h4>
+          <p>Get discovered by thousands of local users searching online.</p>
+        </div>
+        <div class="box">
+          <span><img src="/css/rupee-symbol (2).png" height="43px" /></span>
+          <h4>100% Free</h4>
+          <p>No registration charges. List your business completely free.</p>
+        </div>
+        <div class="box">
+          <span><img src="/css/magnifier.png" height="50px" /></span>
+          <h4>Better Visibility</h4>
+          <p>Improve your online presence and attract more leads.</p>
+        </div>
+        <div class="box">
+          <span><img src="/css/increase.png" height="50px" /></span>
+          <h4>Business Growth</h4>
+          <p>Increase inquiries, sales, and long-term growth.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- General inquiry section -->
+    <section class="contact-wrapper">
+      <!-- LEFT: GENERAL INQUIRY FORM -->
+      <section class="inquiry-section">
+        <h2>General Inquiry</h2>
+        <p>
+          Send questions, report issues, provide feedback, or request
+          partnerships.
+        </p>
+
+        <form action="#" method="post">
+          <label>Name</label>
+          <input type="text" name="name" maxlength="30" required />
+
+          <label>Email</label>
+          <input type="email" name="email" maxlength="20" required />
+
+          <label>Subject</label>
+          <select name="subject" required>
+            <option value="">-- Select Subject --</option>
+            <option value="Question">General Question</option>
+            <option value="Issue">Report an Issue</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Partnership">Partnership Request</option>
+          </select>
+
+          <label>Message</label>
+          <textarea name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <!-- RIGHT: GET IN TOUCH -->
+      <section class="getintouch-section">
+        <h2>Get In Touch</h2>
+        <p>Reach NashikLocal through multiple channels.</p>
+
+        <div class="contact-item">
+          <h4><img src="/css/pin.png" class="icons" />&nbsp;Office Address</h4>
+
+          <p>NashikLocal Pvt. Ltd.</p>
+          <p>MG Road, Nashik</p>
+          <p>Maharashtra, India</p>
+        </div>
+
+        <div class="contact-item">
+          <h4><img src="/css/phone-call.png" class="icons" />&nbsp;Phone</h4>
+          <p>+91 98765 43210</p>
+          <br />
+          <p>+91 91234 56789</p>
+        </div>
+
+        <div class="contact-item">
+          <h4><img src="/css/email.png" class="icons" /> &nbsp;Email</h4>
+          <a href="mailto:support@nashiklocal.com">support@nashiklocal.com</a
+          ><br />&nbsp;<br />
+          <a href="mailto:info@nashiklocal.com">info@nashiklocal.com</a>
+        </div>
+
+        <br />
+
+        <h4>&nbsp;FOLLOW OUR COMMUNITY</h4>
+        <br />
+        <div class="media-icons">
+          <div class="media-img">
+            <a href="#" target="_blank"
+              ><img src="/css/facebook (2).png" alt="facebook" height="25px"
+            /></a>
+          </div>
+          &nbsp;&nbsp;
+          <div class="media-img">
+            <a href="#" target="_blank"
+              ><img src="/css/instagram.png" alt="instagram" height="25px"
+            /></a>
+          </div>
+          &nbsp;&nbsp;
+          <div class="media-img">
+            <a href="#" target="_blank"
+              ><img src="/css/twitter.png" alt="twitter" height="25px"
+            /></a>
+          </div>
+          &nbsp;&nbsp;
+          <div class="media-img">
+            <a href="#" target="_blank"
+              ><img src="/css/linkedin.png" alt="linkdin" height="25px"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+    <div class="footer-container">
+      <!-- Brand -->
+      <div class="footer-col">
+        <h2 class="footer-logo">Nashik<span>Local</span></h2>
+        <p>
+          Discover and support trusted local shops in Nashik.
+          From groceries to fashion, everything local at one place.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./pages/shops.html">Shops</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Categories -->
+      <div class="footer-col">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Grocery</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <p>Nashik, Maharashtra</p>
+        <p>Email: support@nashiklocal.com</p>
+        <p>Phone: +91 9XXXXXXXXX</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 NashikLocal. All Rights Reserved.</p>
+    </div>
+  </footer>
+  </body>
+</html>
