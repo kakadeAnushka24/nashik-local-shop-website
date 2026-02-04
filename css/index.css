@@ -263,39 +263,38 @@ body {
 
 /* ================= CATEGORY SECTION ================= */
 .animated-title {
-    font-size: 48px;
-    font-weight: 700;
-    background: linear-gradient(to right, #000000, #9f4ce8);
-    /* -webkit-background-clip: text;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(to right, #000000, #9f4ce8);
+  /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 
-    background-clip: text;
-    color: transparent;
+  background-clip: text;
+  color: transparent;
 
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 
 }
 
 /* glowing animated line */
 .animated-title::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -14px;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 4px;
-    background: linear-gradient(90deg, transparent, #554ee3, transparent);
-    border-radius: 10px;
-    animation: underlineMove 1.6s ease-in-out infinite;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -14px;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #554ee3, transparent);
+  border-radius: 10px;
+  animation: underlineMove 1.6s ease-in-out infinite;
 }
 
 .animated-title:hover {
-  transform: translateY(-8px);
+  transform: translateY(-5px);
 
 }
-
 
 .view-all {
   display: inline-block;
